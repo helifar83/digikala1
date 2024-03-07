@@ -1,0 +1,184 @@
+.haraj {
+  width: 100%;
+  height: 813px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.haraj .haraj__main {
+  width: 90%;
+  height: inherit;
+  border-radius: 16px;
+  border: 1px solid #e0e0e2;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.haraj .haraj__main .haraj__top {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.haraj .haraj__main .haraj__top h3 {
+  font-family: persian;
+  font-size: 20px;
+  font-weight: lighter;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5px;
+}
+.haraj .haraj__main .haraj__top h3 span {
+  margin-top: 8px;
+}
+.haraj .haraj__main .haraj__center {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  border-radius: 10px;
+}
+.haraj .haraj__main .haraj__center .center__main {
+  width: 1310px;
+  height: 727px;
+  display: flex;
+  flex-flow: row wrap;
+}
+.haraj .haraj__main .haraj__center .center__first {
+  width: 218px;
+  height: 243px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #f0f0f1;
+  border-left: 1px solid #f0f0f1;
+}
+.haraj .haraj__main .haraj__center .center__first .one {
+  width: 201px;
+  height: 150px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.haraj .haraj__main .haraj__center .center__first .one img {
+  width: 150px;
+  height: 150px;
+}
+.haraj .haraj__main .haraj__center .center__first .two {
+  display: block;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row-reverse wrap;
+  justify-content: space-between;
+}
+.haraj .haraj__main .haraj__center .center__first .two h5 {
+  display: flex;
+  flex-flow: row-reverse wrap;
+  font-size: 18px;
+  opacity: 0.8;
+  margin-top: 10px;
+  margin-left: 5px;
+  column-gap: 3px;
+}
+.haraj .haraj__main .haraj__center .center__first .two span {
+  height: 20px;
+  width: 33px;
+  font-size: 14px;
+  border-radius: 12px;
+  color: #ffffff;
+  padding: 0 10px;
+  background-color: #d32f2f;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+}
+.haraj .haraj__main .haraj__center .center__first .three {
+  display: block;
+  width: 100%;
+  height: auto;
+  font-family: var(--font-family-number);
+  text-align: left;
+  padding-left: 25px;
+  font-size: 14px;
+  opacity: 0.9;
+  text-decoration: line-through;
+  margin-top: 5px;
+  opacity: 0.6;
+}
+.haraj .haraj__main .haraj__center .haraj__center__two {
+  width: 218px;
+  height: 243px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #f0f0f1;
+}
+.haraj .haraj__main .haraj__center .haraj__center__two .haraj__one {
+  width: 201px;
+  height: 150px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.haraj .haraj__main .haraj__center .haraj__center__two .haraj__one img {
+  width: 150px;
+  height: 150px;
+}
+.haraj .haraj__main .haraj__center .haraj__center__two .haraj__two {
+  display: block;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row-reverse wrap;
+  justify-content: space-between;
+}
+.haraj .haraj__main .haraj__center .haraj__center__two .haraj__two h5 {
+  display: flex;
+  flex-flow: row-reverse wrap;
+  font-size: 18px;
+  opacity: 0.8;
+  margin-top: 10px;
+  margin-left: 5px;
+  column-gap: 3px;
+}
+.haraj .haraj__main .haraj__center .haraj__center__two .haraj__two span {
+  height: 20px;
+  width: 33px;
+  font-size: 14px;
+  border-radius: 12px;
+  color: #ffffff;
+  padding: 0 10px;
+  background-color: #d32f2f;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+}
+.haraj .haraj__main .haraj__center .haraj__center__two .three {
+  display: block;
+  width: 100%;
+  height: auto;
+  font-family: var(--font-family-number);
+  text-align: left;
+  padding-left: 25px;
+  font-size: 14px;
+  opacity: 0.9;
+  text-decoration: line-through;
+  margin-top: 5px;
+  opacity: 0.6;
+}

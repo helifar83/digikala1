@@ -1,0 +1,110 @@
+.digiplus {
+  width: 100%;
+  height: 110px;
+
+  margin-top: 12px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.digiplus .digiplus__main {
+  width: 97%;
+  height: 110px;
+  border-radius: 12px;
+  background: url(../../images/digiplus/1.svg) right center no-repeat,
+    url(../../images/digiplus/2.svg) left center no-repeat,
+    linear-gradient(
+      34deg,
+      rgba(239, 238, 240, 1) 0%,
+      rgba(231, 218, 229, 1) 100%
+    );
+  display: flex;
+  flex-flow: row wrap;
+}
+.digiplus .digiplus__main .digiplus__right {
+  height: inherit;
+  width: 60%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.digiplus .digiplus__main .digiplus__right svg {
+  margin-right: 37px;
+}
+.digiplus .digiplus__main .digiplus__left {
+  height: inherit;
+  width: 40%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-end;
+}
+.digiplus .digiplus__main .digiplus__left .digiplus__left__top {
+  width: 249px;
+  height: 34px;
+  color: #b12ba4;
+  font-family: persian;
+  font-size: 16px;
+  font-weight: lighter;
+  column-gap: 5px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: 70px;
+}
+.digiplus .digiplus__main .digiplus__left .digiplus__left__top span {
+  padding-top: 5px;
+}
+.digiplus .digiplus__main .digiplus__left .digiplus__left__bottom {
+  width: 249px;
+  height: 41px;
+  margin-left: 30px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 9px;
+}
+.digiplus
+  .digiplus__main
+  .digiplus__left
+  .digiplus__left__bottom
+  .bottom__eins {
+  width: 40px;
+  height: 41px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  background-color: #fff;
+  border-radius: 10px;
+  row-gap: 3px;
+}
+.digiplus
+  .digiplus__main
+  .digiplus__left
+  .digiplus__left__bottom
+  .bottom__eins
+  .eins {
+  font-size: 18px;
+  color: #941b80;
+}
+.digiplus
+  .digiplus__main
+  .digiplus__left
+  .digiplus__left__bottom
+  .bottom__eins
+  .zwei {
+  font-family: persian;
+  font-size: 6px;
+}
+.digiplus .digiplus__main .digiplus__left .digiplus__left__bottom .drei {
+  display: flex;
+  flex-flow: row-reverse wrap;
+  font-family: persian;
+  font-size: 12px;
+  column-gap: 5px;
+  color: #941b80;
+}

@@ -1,0 +1,21 @@
+.chicken{
+    width: 100%;
+    height: 166px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;   
+}
+.chicken .chicken__main{
+    width: 90%;
+    height: inherit;
+    border-radius: 16px;
+}
+.chicken .chicken__main img{
+    width: 100%;
+    height: 166;
+    object-fit: cover;
+    overflow: hidden;
+    position: relative;
+    border-radius: 16px;
+}

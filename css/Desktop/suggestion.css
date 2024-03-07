@@ -1,0 +1,235 @@
+.suggestion {
+  width: 100%;
+  height: 387px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.suggestion .suggestion__main {
+  width: 90%;
+  height: inherit;
+  display: block;
+}
+.suggestion .suggestion__main .suggestion__top {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.suggestion .suggestion__main .suggestion__top h2 {
+  font-family: persian;
+  font-size: 21px;
+  font-weight: normal;
+}
+.suggestion .suggestion__main .suggestion__center {
+  width: 100%;
+  height: 80%;
+  border: 2px solid #e0e0e2;
+  box-sizing: border-box;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.suggestion .suggestion__main .suggestion__center .swiper-wrapper {
+  background-color: #f0f0f1;
+  border-radius: 20px;
+  display: flex;
+}
+.suggestion .suggestion__main .suggestion__center .swiper-wrapper .first {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0px 20px 0px 0px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  row-gap: 12px;
+}
+.suggestion .suggestion__main .suggestion__center .swiper-wrapper .first h5 {
+  font-family: persian;
+  font-size: 14px;
+  font-weight: normal;
+}
+.suggestion .suggestion__main .suggestion__center .swiper-wrapper .first div {
+  width: 84px;
+  height: 84px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  object-fit: contain;
+  border-radius: 50%;
+  position: relative;
+}
+.suggestion
+  .suggestion__main
+  .suggestion__center
+  .swiper-wrapper
+  .first
+  div
+  img {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  outline: unset;
+  object-fit: contain;
+  color: inherit;
+  border-radius: 0px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+.suggestion .suggestion__main .suggestion__center .swiper-wrapper .second {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0px 0px 20px 0px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  row-gap: 12px;
+}
+.suggestion .suggestion__main .suggestion__center .swiper-wrapper .second div {
+  width: 84px;
+  height: 84px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  object-fit: contain;
+  border-radius: 50px;
+  position: relative;
+}
+.suggestion .suggestion__main .suggestion__center .swiper-wrapper .second h5 {
+  font-family: persian;
+  font-size: 14px;
+  font-weight: normal;
+}
+.suggestion
+  .suggestion__main
+  .suggestion__center
+  .swiper-wrapper
+  .second
+  div
+  img {
+  width: 60px;
+  height: 60px;
+  outline: unset;
+  object-fit: contain;
+  border-radius: 0px;
+  position: relative;
+  color: inherit;
+  background-image: hsl(0, 0%, 90%);
+  overflow: hidden;
+}
+.suggestion .suggestion__main .suggestion__center .swiper-wrapper .third {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  row-gap: 12px;
+}
+.suggestion .suggestion__main .suggestion__center .swiper-wrapper .third div {
+  width: 84px;
+  height: 84px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  object-fit: contain;
+  border-radius: 50%;
+  position: relative;
+}
+.suggestion .suggestion__main .suggestion__center .swiper-wrapper .third h5 {
+  font-family: persian;
+  font-size: 14px;
+  font-weight: normal;
+}
+.suggestion .suggestion__main .suggestion__center .third div img{
+  width: 60px;
+  height: 60px;
+  display: flex;
+  outline: unset;
+  object-fit: contain;
+  position: relative;
+  color: inherit;
+  border-radius: 0px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+.suggestion .suggestion__main .suggestion__center .swiper-wrapper .forth{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  border-radius: 20px 0px 0px 0px;
+  row-gap: 12px;
+}
+.suggestion .suggestion__main .suggestion__center .swiper-wrapper .forth div {
+  width: 84px;
+  height: 84px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  object-fit: contain;
+  border-radius: 50%;
+  position: relative;
+}
+.suggestion .suggestion__main .suggestion__center .swiper-wrapper .forth h5 {
+  font-family: persian;
+  font-size: 14px;
+  font-weight: normal;
+}
+.suggestion .suggestion__main .suggestion__center .forth div img{
+  width: 60px;
+  height: 60px;
+  display: flex;
+  outline: unset;
+  object-fit: contain;
+  position: relative;
+  color: inherit;
+  border-radius: 0px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+.suggestion .suggestion__main .suggestion__center .swiper-wrapper .fifth{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  border-radius: 0px 0px 0px 20px;
+  row-gap: 12px;
+}
+.suggestion .suggestion__main .suggestion__center .swiper-wrapper .fifth div {
+  width: 84px;
+  height: 84px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  object-fit: contain;
+  border-radius: 50%;
+  position: relative;
+}
+.suggestion .suggestion__main .suggestion__center .swiper-wrapper .fifth h5 {
+  font-family: persian;
+  font-size: 14px;
+  font-weight: normal;
+}
+.suggestion .suggestion__main .suggestion__center .fifth div img{
+  width: 60px;
+  height: 60px;
+  display: flex;
+  outline: unset;
+  object-fit: contain;
+  position: relative;
+  color: inherit;
+  border-radius: 0px;
+  margin-top: 10px;
+  overflow: hidden;
+}

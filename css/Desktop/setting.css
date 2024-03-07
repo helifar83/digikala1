@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+    direction: rtl;
+}
+:root{
+    --width:100%;
+    --font-family:persian;
+    --font-family-number: BNAZANIN;
+
+}
+@font-face{
+  font-family: BNAZANIN;
+  src: url('../../fonts/bnazanin/B-NAZANIN.TTF');
+}
+@font-face {
+  font-family: persian;
+  src: url(../../fonts/IRANYekanWeb-Medium.eot);
+  src: url(../../fonts/IRANYekanWeb-Medium.ttf);
+  src: url(../../fonts/IRANYekanWeb-Medium.woff);
+  src: url(../../fonts/IRANYekanWeb-Medium.woff2);
+}
+.main {
+  width: 100%;
+}

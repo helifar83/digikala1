@@ -1,0 +1,30 @@
+.items{
+    width: 100%;
+    height: 263px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+.items .items__first{
+    width: 90%;
+    height: inherit;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    
+}
+.items .items__first .items__first__one{
+    width: 659px;
+    height: 263px;
+}
+.items .items__first .items__first__one img{
+    width: 659px;
+    height: 263px;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-radius: 16px;
+
+}

@@ -1,0 +1,174 @@
+.supermarket__amazing {
+  width: 100%;
+  height: 110px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: 26px;
+}
+.supermarket__amazing .supermarket__amazing__main {
+  width: 97%;
+  height: inherit;
+  border-radius: 12px;
+  background: url(../../images/supermarket__amazing/freshPattern.svg) left
+    center no-repeat #eceeec;
+  display: flex;
+  flex-flow: row wrap;
+}
+.supermarket__amazing .supermarket__amazing__main .supermarket__amzing__right {
+  width: 50%;
+  height: inherit;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+.supermarket__amazing
+  .supermarket__amazing__main
+  .supermarket__amzing__right
+  .supermarket__amzing__right__first
+  img {
+  width: 66px;
+  height: 66px;
+  object-fit: contain;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-right: 35px;
+  margin-top: 25px;
+}
+.supermarket__amazing
+  .supermarket__amazing__main
+  .supermarket__amzing__right
+  .supermarket__amzing__right__second {
+  display: flex;
+  flex-flow: row wrap;
+  column-gap: 10px;
+}
+.supermarket__amazing
+  .supermarket__amazing__main
+  .supermarket__amzing__right
+  .supermarket__amzing__right__second
+  img {
+  width: 250px;
+  height: 28px;
+  object-fit: contain;
+  margin-top: 44px;
+  margin-right: 20px;
+}
+.supermarket__amazing
+  .supermarket__amazing__main
+  .supermarket__amzing__right
+  .supermarket__amzing__right__three {
+  box-sizing: border-box;
+  width: 112px;
+  height: 27px;
+  border-radius: 70px;
+  margin-top: 42px;
+  outline: none;
+  background-color: #39ae00;
+  text-align: center;
+  margin-right: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.supermarket__amazing
+  .supermarket__amazing__main
+  .supermarket__amzing__right
+  .supermarket__amzing__right__three
+  p {
+  font-family: persian;
+  color: #fff;
+  font-size: 14px;
+  font-weight: normal;
+}
+.supermarket__amazing
+  .supermarket__amazing__main
+  .supermarket__amazing__left{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .supermarket__amazing
+  .supermarket__amazing__main
+  .supermarket__amazing__left{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .supermarket__amazing
+  .supermarket__amazing__main
+  .supermarket__amazing__left .supermarket__amazing__left__one{
+    width: 73px;
+    height: 73px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: contain;
+    background-color: #fff;
+    border-radius: 50px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-right: 5px;
+    column-gap: 3px;
+  }
+  .supermarket__amazing
+  .supermarket__amazing__main
+  .supermarket__amazing__left .supermarket__amazing__left__one span{
+    width: 30px;
+    height: 20px;
+    background-color: #d32f2f;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    position: absolute;
+    margin-right: -40px;
+    margin-bottom: -50px;
+    color: #fff;
+    font-size: 14px;
+  }
+  .supermarket__amazing
+  .supermarket__amazing__main
+  .supermarket__amazing__left .supermarket__amazing__left__one img{
+    width: 58px;
+    height: 58px;
+    object-fit: contain;
+    position: relative;
+  }
+  .supermarket__amazing
+  .supermarket__amazing__main
+  .supermarket__amazing__left .supermarket__amazing__left__two{
+    width: 129px;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-top: 32px;
+    margin-right: 5px;
+  }
+  .supermarket__amazing
+  .supermarket__amazing__main
+  .supermarket__amazing__left .supermarket__amazing__left__two a{
+    color: #39ae00;
+    text-decoration: none;
+    font-family: var(--font-family);
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    flex-flow: row wrap;
+    column-gap: 5px;
+  }
+  .supermarket__amazing
+  .supermarket__amazing__main
+  .supermarket__amazing__left .supermarket__amazing__left__two a svg{
+    display: flex;
+    justify-content: center;
+  }

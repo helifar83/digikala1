@@ -1,0 +1,64 @@
+.popularr {
+  width: 100%;
+  height: 224px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.popularr .popular__main {
+  width: 90%;
+  height: inherit;
+  display: block;
+  border: 2px solid #e0e0e2;
+  border-radius: 16px;
+}
+.popularr .popular__main .top {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+}
+.popularr .popular__main .top p {
+  font-family: persian;
+  font-size: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  column-gap: 5px;
+}
+.popularr .popular__main .top p span {
+  margin-top: 10px;
+}
+.popularr .popular__main .center {
+  width: 100%;
+  height: 60%;
+  display: flex;
+}
+
+.popularr .popular__main .center .mypopularr {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.popularr .popular__main .center .mypopularr .swiper-wrapper .one {
+  width: 141px;
+  height: 117px;
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.popularr .popular__main .center .mypopularr .swiper-wrapper {
+  width: auto;
+  height: auto;
+  background-color: #e0e0e2;
+}
+.popularr .popular__main .center .mypopularr .swiper-wrapper .one a img {
+  width: 110px;
+  height: 110px;
+  object-fit: contain;
+}

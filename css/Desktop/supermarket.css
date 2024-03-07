@@ -1,0 +1,137 @@
+.supermarket {
+  width: 100%;
+  height: 112px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+.supermarket .shop {
+  width: 90%;
+  height: inherit;
+  background: linear-gradient(
+    90deg,
+    rgba(131, 225, 130, 1) 0%,
+    rgba(14, 162, 11, 1) 100%
+  );
+  border-radius: 16px;
+  display: flex;
+  flex-flow: row wrap;
+}
+.supermarket .shop .right {
+  width: 50%;
+  height: inherit;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+.supermarket .shop .right .right__first img {
+  width: 66px;
+  height: 66px;
+  object-fit: contain;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-right: 35px;
+  margin-top: 25px;
+}
+.supermarket .shop .right .right__second {
+  display: flex;
+  flex-flow: row wrap;
+  column-gap: 10px;
+}
+.supermarket .shop .right .right__second img {
+  width: 250px;
+  height: 28px;
+  object-fit: contain;
+  margin-top: 44px;
+  margin-right: 20px;
+}
+.supermarket .shop .right .right__three {
+  box-sizing: border-box;
+  width: 112px;
+  height: 27px;
+  border-radius: 70px;
+  margin-top: 42px;
+  outline: none;
+  background-color: #39ae00;
+  text-align: center;
+  margin-right: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.supermarket .shop .right .right__three p {
+  font-family: persian;
+  color: #fff;
+  font-size: 14px;
+  font-weight: normal;
+}
+.supermarket .shop .left {
+  width: 50%;
+  height: inherit;
+  display: flex;
+  flex-flow: row wrap;
+}
+.supermarket .shop .left .left__first {
+  width: 73px;
+  height: 73px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: contain;
+  background-color: #fff;
+  border-radius: 50px;
+  overflow: hidden;
+  margin-top: 20px;
+  margin-right: 5px;
+  column-gap: 3px;
+}
+.supermarket .shop .left .left__first span {
+  width: 30px;
+  height: 20px;
+  background-color: #d32f2f;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  position: absolute;
+  margin-right: -40px;
+  margin-bottom: -50px;
+  color: #fff;
+  font-size: 14px;
+}
+.supermarket .shop .left .left__first img {
+  width: 58px;
+  height: 58px;
+  object-fit: contain;
+  position: relative;
+}
+.supermarket .shop .left .left__second {
+  width: 129px;
+  height: 50px;
+  background-color: #fff;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  margin-top: 32px;
+  margin-right: 5px;
+}
+.supermarket .shop .left .left__second a {
+  color: #39ae00;
+  text-decoration: none;
+  font-family: var(--font-family);
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+  flex-flow: row wrap;
+  column-gap: 5px;
+}
+.supermarket .shop .left .left__second a svg {
+  display: flex;
+  justify-content: center;
+}

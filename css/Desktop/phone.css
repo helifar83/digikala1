@@ -1,0 +1,445 @@
+.phone {
+  width: 100%;
+  height: 417px;
+  margin-top: 16px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-bottom: 41px;
+}
+.phone .phone__main {
+  width: 90%;
+  height: inherit;
+  display: flex;
+  flex-flow: row wrap;
+  border: 1px solid #e0e0e2;
+  border-radius: 16px;
+}
+.phone .phone__main .mobile {
+  width: 25%;
+  height: inherit;
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 10px;
+  align-items: center;
+  border-left: 1px solid #e0e0e2;
+}
+.phone .phone__main .mobile .first {
+  width: 100%;
+  height: auto;
+  padding-right: 22px;
+  margin-top: 15px;
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 5px;
+}
+.phone .phone__main .mobile .first h4 {
+  font-family: persian;
+  font-size: 16px;
+  font-weight: normal;
+}
+.phone .phone__main .mobile .first p {
+  font-family: persian;
+  font-size: 11px;
+  font-weight: normal;
+  opacity: 0.5;
+}
+.phone .phone__main .mobile .second {
+  width: 292px;
+  height: 146px;
+  display: flex;
+  flex-flow: row wrap;
+  row-gap: 5px;
+}
+.phone .phone__main .mobile .second .second__one {
+  width: 145px;
+  height: 145px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+.phone .phone__main .mobile .second .second__one img {
+  width: 129px;
+  height: 129px;
+  object-fit: contain;
+}
+.phone .phone__main .mobile .third {
+  width: 292px;
+  height: 146px;
+  display: flex;
+  flex-flow: row wrap;
+}
+.phone .phone__main .mobile .second .line {
+  width: 292px;
+  height: 1px;
+  background-color: #e0e0e2;
+  margin-bottom: -3px;
+}
+.phone .phone__main .mobile .third .third__one {
+  width: 145px;
+  height: 145px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+.phone .phone__main .mobile .third .third__one img {
+  width: 129px;
+  height: 129px;
+  object-fit: contain;
+}
+.phone .phone__main .mobile .forth {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  margin-right: 120px;
+}
+.phone .phone__main .mobile .forth a {
+  font-family: persian;
+  text-decoration: none;
+  font-size: 12px;
+  color: #19bfd3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.phone .phone__main .mobile .forth a span {
+  margin-top: 5px;
+}
+
+.phone .phone__main .headphone {
+  width: 25%;
+  height: inherit;
+  flex-flow: row wrap;
+  row-gap: 10px;
+  align-items: center;
+  border-left: 1px solid #e0e0e2;
+}
+.phone .phone__main .headphone .headphone__main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.phone .phone__main .headphone .headphone__main .headphone__firt {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  height: 50%;
+}
+.phone .phone__main .headphone__main .line__two {
+  width: 292px;
+  height: 1px;
+  background-color: #e0e0e2;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-right: 21px;
+}
+.phone .phone__main .headphone .headphone__main .line {
+  width: 1px;
+  height: auto;
+  background-color: #e0e0e2;
+}
+.phone .phone__main .headphone .first {
+  width: 100%;
+  height: auto;
+  padding-right: 22px;
+  margin-top: 15px;
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 5px;
+}
+.phone .phone__main .headphone .first h4 {
+  font-family: persian;
+  font-size: 16px;
+  font-weight: normal;
+}
+.phone .phone__main .headphone .first p {
+  font-family: persian;
+  font-size: 11px;
+  font-weight: normal;
+  opacity: 0.5;
+}
+.phone .phone__main .headphone .headphone__main .second {
+  width: 146px;
+  height: 146px;
+  display: flex;
+  flex-flow: row wrap;
+  row-gap: 5px;
+}
+.phone .phone__main .headphone .headphone__main .second .second__one {
+  width: 145px;
+  height: 145px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+.phone .phone__main .headphone .headphone__main .second .second__one img {
+  width: 129px;
+  height: 129px;
+  object-fit: contain;
+}
+.phone .phone__main .headphone .third {
+  width: 146px;
+  height: 146px;
+  display: flex;
+  flex-flow: row wrap;
+  row-gap: 5px;
+}
+.phone .phone__main .headphone .headphone__main .third .third__one {
+  width: 145px;
+  height: 145px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+.phone .phone__main .headphone .headphone__main .third .third__one img {
+  width: 129px;
+  height: 129px;
+  object-fit: contain;
+}
+.phone .phone__main .headphone .forth {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  margin-right: 120px;
+  margin-top: 10px;
+}
+.phone .phone__main .headphone .forth a {
+  font-family: persian;
+  text-decoration: none;
+  font-size: 12px;
+  color: #19bfd3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.phone .phone__main .headphone .forth a span {
+  margin-top: 5px;
+}
+.phone .phone__main .cover {
+  width: 25%;
+  height: inherit;
+  flex-flow: row wrap;
+  row-gap: 10px;
+  align-items: center;
+  border-left: 1px solid #e0e0e2;
+}
+.phone .phone__main .cover .cover__main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.phone .phone__main .cover .cover__main .cover__firt {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  height: 50%;
+}
+.phone .phone__main .cover__main .line__two {
+  width: 292px;
+  height: 1px;
+  background-color: #e0e0e2;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-right: 21px;
+}
+.phone .phone__main .cover .cover__main .line {
+  width: 1px;
+  height: auto;
+  background-color: #e0e0e2;
+}
+.phone .phone__main .cover .first {
+  width: 100%;
+  height: auto;
+  padding-right: 22px;
+  margin-top: 15px;
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 5px;
+}
+.phone .phone__main .cover .first h4 {
+  font-family: persian;
+  font-size: 16px;
+  font-weight: normal;
+}
+.phone .phone__main .headphone .first p {
+  font-family: persian;
+  font-size: 11px;
+  font-weight: normal;
+  opacity: 0.5;
+}
+.phone .phone__main .cover .cover__main .second {
+  width: 146px;
+  height: 146px;
+  display: flex;
+  flex-flow: row wrap;
+  row-gap: 5px;
+}
+.phone .phone__main .cover .cover__main .second .second__one {
+  width: 145px;
+  height: 145px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+.phone .phone__main .cover .cover__main .second .second__one img {
+  width: 129px;
+  height: 129px;
+  object-fit: contain;
+}
+.phone .phone__main .cover .third {
+  width: 146px;
+  height: 146px;
+  display: flex;
+  flex-flow: row wrap;
+  row-gap: 5px;
+}
+.phone .phone__main .cover .cover__main .third .third__one {
+  width: 145px;
+  height: 145px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+.phone .phone__main .cover .cover__main .third .third__one img {
+  width: 129px;
+  height: 129px;
+  object-fit: contain;
+}
+.phone .phone__main .cover .forth {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  margin-right: 120px;
+  margin-top: 10px;
+}
+.phone .phone__main .cover .forth a {
+  font-family: persian;
+  text-decoration: none;
+  font-size: 12px;
+  color: #19bfd3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.phone .phone__main .cover .forth a span {
+  margin-top: 5px;
+}
+.phone .phone__main .watch {
+  width: 25%;
+  height: inherit;
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 10px;
+  align-items: center;
+}
+.phone .phone__main .watch .first {
+  width: 100%;
+  height: auto;
+  padding-right: 22px;
+  margin-top: 15px;
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 5px;
+}
+.phone .phone__main .watch .first h4 {
+  font-family: persian;
+  font-size: 16px;
+  font-weight: normal;
+}
+.phone .phone__main .watch .first p {
+  font-family: persian;
+  font-size: 11px;
+  font-weight: normal;
+  opacity: 0.5;
+}
+.phone .phone__main .watch .second {
+  width: 292px;
+  height: 146px;
+  display: flex;
+  flex-flow: row wrap;
+  row-gap: 5px;
+}
+.phone .phone__main .watch .second .second__one {
+  width: 145px;
+  height: 145px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+.phone .phone__main .watch .second .second__one img {
+  width: 129px;
+  height: 129px;
+  object-fit: contain;
+}
+.phone .phone__main .watch .third {
+  width: 292px;
+  height: 146px;
+  display: flex;
+  flex-flow: row wrap;
+}
+.phone .phone__main .watch .second .line {
+  width: 292px;
+  height: 1px;
+  background-color: #e0e0e2;
+  margin-bottom: -3px;
+}
+.phone .phone__main .watch .third .third__one {
+  width: 145px;
+  height: 145px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+.phone .phone__main .watch .second .third__one img {
+  width: 129px;
+  height: 129px;
+  object-fit: contain;
+}
+.phone .phone__main .watch .forth {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  margin-right: 120px;
+}
+.phone .phone__main .watch .forth a {
+  font-family: persian;
+  text-decoration: none;
+  font-size: 12px;
+  color: #19bfd3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.phone .phone__main .watch .forth a span {
+  margin-top: 5px;
+}

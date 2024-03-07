@@ -1,0 +1,191 @@
+.wonderful {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.wonderful .wonderful__center {
+  width: 90%;
+  height: inherit;
+  background: linear-gradient(
+    0deg,
+    rgba(221, 80, 114, 1) 0%,
+    rgba(230, 18, 61, 1) 100%
+  );
+  border-radius: 20px;
+  padding: 20px 0;
+  border-left: 4px solid
+  linear-gradient(34deg, rgba(221, 80, 114, 1) 0%, rgba(230, 18, 61, 1) 100%);
+  background-size: cover;
+}
+.wonderful .wonderful__center .first__wonderful {
+  background: linear-gradient(
+    0deg,
+    rgba(221, 80, 114, 1) 0%,
+    rgba(230, 18, 61, 1) 100%
+  );
+}
+.wonderful .wonderful__center .first__wonderful div {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    0deg,
+    rgba(221, 80, 114, 1) 0%,
+    rgba(230, 18, 61, 1) 100%
+  );
+}
+.wonderful .wonderful__center .first__wonderful div > svg {
+  width: 92px;
+  height: 77px;
+}
+.wonderful .wonderful__center .first__wonderful div img {
+  outline: unset;
+  width: 145px;
+  height: 115px;
+  border-radius: 0px;
+  object-fit: contain;
+  margin-top: 8px;
+}
+.wonderful .wonderful__center .first__wonderful div a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: persian;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+.wonderful .wonderful__center .first__wonderful div a svg {
+  fill: #ffffff;
+}
+.second__wonderful .item div {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  padding: 10px;
+}
+.second__wonderful .item .second__wonderful__one {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 2px;
+}
+.second__wonderful .item .second__wonderful__two {
+  display: block;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row-reverse wrap;
+  justify-content: space-between;
+}
+.second__wonderful .item .second__wonderful__two h5 {
+  display: flex;
+  flex-flow: row-reverse wrap;
+  font-size: 15px;
+  opacity: 0.8;
+}
+.second__wonderful .item .second__wonderful__two span {
+  font-size: 14px;
+  border-radius: 12px;
+  color: #ffffff;
+  padding: 0 10px;
+  background-color: #d32f2f;
+  font-family: var(--font-family-number);
+}
+.second__wonderful .item .second__wonderful__three {
+  display: block;
+  width: 100%;
+  height: auto;
+  font-family: var(--font-family-number);
+  text-align: left;
+  padding-left: 25px;
+  font-size: 14px;
+  opacity: 0.9;
+  text-decoration: line-through;
+}
+.second__wonderful .item .second__wonderful__one img {
+  all: unset;
+  width: 150px;
+  height: 150px;
+}
+.second{
+  border-radius: 0 14px 14px 0;
+}
+.second .item div {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  padding: 10px;
+}
+.second .item .second__wonderful__one {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 2px;
+}
+.second .item .second__wonderful__two {
+  display: block;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row-reverse wrap;
+  justify-content: space-between;
+}
+.second .item .second__wonderful__two h5 {
+  display: flex;
+  flex-flow: row-reverse wrap;
+  font-size: 15px;
+  opacity: 0.8;
+}
+.second .item .second__wonderful__two span {
+  font-size: 14px;
+  border-radius: 12px;
+  color: #ffffff;
+  padding: 0 10px;
+  background-color: #d32f2f;
+  font-family: var(--font-family-number);
+}
+.second .item .second__wonderful__three {
+  display: block;
+  width: 100%;
+  height: auto;
+  font-family: var(--font-family-number);
+  text-align: left;
+  padding-left: 25px;
+  font-size: 14px;
+  opacity: 0.9;
+  text-decoration: line-through;
+}
+.second .item .second__wonderful__one img {
+  all: unset;
+  width: 150px;
+  height: 150px;
+}
+.wonderful .wonderful__center .third__wonderful .onee {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.wonderful .wonderful__center .third__wonderful .onee a span {
+  width: 42px !important;
+  height: 42px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border-radius: 50px;
+  outline: 2px solid #19bfd3;
+  margin-bottom: 15px;
+}
+.wonderful .wonderful__center .third__wonderful .onee a {
+  text-decoration: none;
+  font-family: persian;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  color: #3f4064;
+  font-weight: bold;
+}

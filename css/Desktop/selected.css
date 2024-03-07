@@ -1,0 +1,222 @@
+.selected {
+  width: 100%;
+  height: 441.48px;
+  background-color: #ef3b50;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.selected .selected__center {
+  width: 99.5%;
+  height: inherit;
+  background-color: #ef3b50;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 28px 0;
+}
+.selected .selected__center .selected__first {
+  width: 208.99px;
+  height: 385.5px;
+  border-radius: 10px;
+  background-color: #ef3b50;
+}
+.selected .selected__center .selected__first div {
+  width: 145px;
+  height: inherit;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+.selected .selected__center .selected__first div img {
+  width: 145px;
+  height: 145px;
+  outline: unset;
+}
+.selected .selected__center .selected__second {
+  width: 208.99px;
+  height: 385.5px;
+  border-radius: 10px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+.selected .selected__center .selected__second div {
+  width: 176px;
+  height: 361.5px;
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 4px;
+}
+.selected .selected__center .selected__second div .top__slide {
+  width: inherit;
+  height: 26px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: persian;
+  color: #b12ba4;
+  font-size: 12px;
+  font-weight: bold;
+}
+.selected .selected__center .selected__second div .center__slide {
+  width: inherit;
+  height: 331.49px;
+}
+.selected .selected__center .selected__second div .center__slide .center__topp {
+  width: 176.02px;
+  height: 150px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.selected
+  .selected__center
+  .selected__second
+  div
+  .center__slide
+  .center__topp
+  img {
+  width: 150px;
+  height: 150px;
+  outline: unset;
+  border-radius: 0;
+}
+.selected .selected__center .selected__second div .center__slide .center__one {
+  width: 176px;
+  height: 52px;
+}
+.selected
+  .selected__center
+  .selected__second
+  div
+  .center__slide
+  .center__one
+  h3 {
+  font-family: persian;
+  font-size: 11px;
+  font-weight: lighter;
+}
+.selected .selected__center .selected__second div .center__slide .center__two {
+  width: 176px;
+  height: 24px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.selected
+  .selected__center
+  .selected__second
+  div
+  .center__slide
+  .center__two
+  p {
+  font-family: persian;
+  font-size: 11px;
+  opacity: 0.7;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  column-gap: 5px;
+}
+.selected
+  .selected__center
+  .selected__second
+  div
+  .center__slide
+  .center__three {
+  width: 176px;
+  height: 63.63px;
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 4px;
+}
+.selected
+  .selected__center
+  .selected__second
+  div
+  .center__slide
+  .center__three
+  .center__three__one {
+  width: 100%;
+  height: 33.61px;
+  display: flex;
+  flex-flow: row-reverse wrap;
+  align-items: center;
+  column-gap: 15px;
+}
+.selected
+  .selected__center
+  .selected__second
+  div
+  .center__slide
+  .center__three
+  .center__three__one
+  h5 {
+  width: 120px;
+  height: auto;
+  display: flex;
+  flex-flow: row-reverse wrap;
+  font-size: 15px;
+  opacity: 0.8;
+  column-gap: 3px;
+  color: #3f4064;
+  margin-top: -2px;
+}
+.selected
+  .selected__center
+  .selected__second
+  div
+  .center__slide
+  .center__three
+  .center__three__one
+  span {
+  height: 20px;
+  width: 33px;
+  font-size: 14px;
+  border-radius: 12px;
+  color: #ffffff;
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c60c31;
+}
+.selected
+  .selected__center
+  .selected__second
+  div
+  .center__slide
+  .center__three
+  .center__three__two {
+  display: block;
+  width: 100%;
+  height: auto;
+  font-family: var(--font-family-number);
+  text-align: left;
+  padding-left: 25px;
+  font-size: 14px;
+  opacity: 0.9;
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+.selected
+  .selected__center
+  .selected__second
+  div
+  .center__slide
+  .center__forth {
+  width: 176px;
+  height: 25px;
+  font-size: 12px;
+  text-align: left;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+  padding-left: 5px;
+  color: #c60c31;
+}

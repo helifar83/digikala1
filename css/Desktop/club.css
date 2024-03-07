@@ -1,0 +1,142 @@
+.club {
+  width: 100%;
+  height: 87px;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+.club .club__main {
+  width: 90%;
+  height: inherit;
+  background: linear-gradient(
+    34deg,
+    rgba(53, 166, 200, 1) 0%,
+    rgba(0, 114, 149, 1) 100%
+  );
+  border-radius: 16px;
+  display: flex;
+  flex-flow: row wrap;
+}
+.club .club__main .club__logo {
+  width: 30%;
+  height: inherit;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.club .club__main .club__logo svg {
+  margin-right: 40px;
+}
+.club .club__main .club__bottom {
+  width: 70%;
+  height: inherit;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.club .club__main .club__bottom .bottom__first{
+    width: 809px;
+    height: 62.22px;
+    margin-right: 99px;
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 3px;
+}
+.club .club__main .club__bottom .bottom__first .one{
+    width: 272px;
+    height: 62.22px;
+    background-color: #FFFFFF;
+    border-radius: 0px 10px 10px 0;
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.club .club__main .club__bottom .bottom__first .one a{
+  text-decoration: none;
+  color: #0c0c0c;
+  font-family: persian;
+  font-size: 12px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5px;
+}
+.club .club__main .club__bottom .bottom__first .one a span{
+    margin-right: 2px;
+    margin-top: 3px;
+}
+.club .club__main .club__bottom .bottom__first .one img{
+    width: 168px;
+    height: 60px;
+    justify-content: flex-end;
+    margin-left: -10px;
+}
+.club .club__main .club__bottom .bottom__first .two{
+    width: 273px;
+    height: 62.22px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.club .club__main .club__bottom .bottom__first .two a{
+    text-decoration: none;
+    color: #0c0c0c;
+    font-family: persian;
+    font-size: 12px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+  }
+  .club .club__main .club__bottom .bottom__first .two a span{
+      margin-right: 2px;
+      margin-top: 3px;
+  }
+  .club .club__main .club__bottom .bottom__first .two img{
+      width: 168px;
+      height: 60px;
+      justify-content: flex-end;
+      margin-left: -10px;
+  }
+.club .club__main .club__bottom .bottom__first .three{
+    width: 255px;
+    height: 62.22px;
+    background-color: #FFFFFF;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 5px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.club .club__main .club__bottom .bottom__first .three a{
+    text-decoration: none;
+    color: #0c0c0c;
+    font-family: persian;
+    font-size: 12px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+  }
+  .club .club__main .club__bottom .bottom__first .three a span{
+      margin-right: 2px;
+      margin-top: 3px;
+  }
+  .club .club__main .club__bottom .bottom__first .three img{
+      width: 168px;
+      height: 60px;
+      justify-content: flex-end;
+      margin-left: -10px;
+  }

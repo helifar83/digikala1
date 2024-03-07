@@ -1,0 +1,413 @@
+.amazing__day {
+  width: 100%;
+  height: 344px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.amazing__day .amazinag__day__center {
+  width: 97.2%;
+  height: inherit;
+  background-image: url(../../images/amazing__day/deal-pattern.svg),
+    linear-gradient(180deg, #e6123d, #c60c31);
+  display: flex;
+  flex-flow: column wrap;
+  border-radius: 12px;
+}
+.amazing__day .amazinag__day__center h5 {
+  width: 100%;
+  height: 34px;
+  margin-top: 22px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: persian;
+  font-size: 16px;
+  column-gap: 5px;
+  color: #fff;
+  font-weight: normal;
+  margin-right: 20px;
+}
+.amazing__day .amazinag__day__center .myAmazingday {
+  width: 98%;
+  height: 258.5px;
+  margin-top: 18px;
+  margin-right: 20px;
+}
+.amazing__day .amazinag__day__center .myAmazingday .amazingday__slide {
+  width: 100%;
+  border-radius: 8px;
+  display: flex;
+  flex-flow: column wrap;
+}
+.amazing__day .amazinag__day__center .myAmazingday .amazingday__slide__two {
+  width: 100%;
+  border-radius: 8px;
+  display: flex;
+  flex-flow: column wrap;
+  background-color: rgba(0, 0, 0, 0.65);
+  row-gap: 15px;
+}
+.amazing__day
+  .amazinag__day__center
+  .myAmazingday
+  .amazingday__slide__two
+  .pattern {
+  width: 80px;
+  height: 80px;
+  background-color: #ef4056;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.amazing__day .amazinag__day__center .myAmazingday .amazingday__slide__two p {
+  font-family: persian;
+  font-weight: bold;
+  color: #fff;
+  font-size: 15px;
+}
+.amazing__day
+  .amazinag__day__center
+  .myAmazingday
+  .amazingday__slide
+  .slide__top {
+  width: 100%;
+  height: 15%;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  padding-right: 10px;
+}
+.amazing__day
+  .amazinag__day__center
+  .myAmazingday
+  .amazingday__slide
+  .slide__center {
+  width: 100%;
+  height: 85%;
+  display: flex;
+  flex-flow: row wrap;
+  column-gap: 20px;
+}
+.amazing__day
+  .amazinag__day__center
+  .myAmazingday
+  .amazingday__slide
+  .slide__center {
+  width: 575px;
+  height: 212.5px;
+  display: flex;
+  flex-flow: row wrap;
+}
+.amazing__day
+  .amazinag__day__center
+  .myAmazingday
+  .amazingday__slide
+  .slide__center
+  div {
+  height: 212.5px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+}
+.amazing__day
+  .amazinag__day__center
+  .myAmazingday
+  .amazingday__slide
+  .slide__center
+  img {
+  width: 200px;
+  height: 200px;
+  outline: none;
+  border-radius: 0;
+}
+.amazing__day
+  .amazinag__day__center
+  .myAmazingday
+  .amazingday__slide
+  .slide__center
+  .center__first
+  .center__two {
+  width: 365px;
+  height: 212.5px;
+  margin-right: 10px;
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 8px;
+}
+.amazing__day
+  .amazinag__day__center
+  .myAmazingday
+  .amazingday__slide
+  .slide__center
+  .center__first
+  .center__two
+  .one {
+  display: flex;
+  width: inherit;
+  height: 52px;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.amazing__day
+  .amazinag__day__center
+  .myAmazingday
+  .amazingday__slide
+  .slide__center
+  .center__first
+  .center__two
+  h3 {
+  font-family: persian;
+  font-size: 12px;
+  font-weight: lighter;
+  margin-top: 34px;
+}
+.amazing__day
+  .amazinag__day__center
+  .myAmazingday
+  .amazingday__slide
+  .slide__center
+  .center__first
+  .center__two
+  .two {
+  width: inherit;
+  height: 26px;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.amazing__day
+  .amazinag__day__center
+  .myAmazingday
+  .amazingday__slide
+  .slide__center
+  .center__first
+  .center__two
+  .twoo{
+    width: inherit;
+    height: 26px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .amazing__day
+  .amazinag__day__center
+  .myAmazingday
+  .amazingday__slide
+  .slide__center
+  .center__first
+  .center__two
+  .twoo
+  .left {
+  width: 41px;
+  height: 26px;
+}
+.amazing__day
+  .amazinag__day__center
+  .myAmazingday
+  .amazingday__slide
+  .slide__center
+  .center__first
+  .center__two
+  .twoo
+  .left
+  p {
+  font-size: 14px;
+}
+.amazing__day
+  .amazinag__day__center
+  .myAmazingday
+  .amazingday__slide
+  .slide__center
+  .center__first
+  .center__two
+  .two
+  .right {
+  display: flex;
+  width: 47.74px;
+  height: 15px;
+  flex-flow: row wrap;
+  column-gap: 5px;
+}
+.amazing__day
+  .amazinag__day__center
+  .myAmazingday
+  .amazingday__slide
+  .slide__center
+  .center__first
+  .center__two
+  .two
+  .right
+  .color {
+  width: 14px;
+  height: 14px;
+  border-radius: 50px;
+  background-color: black;
+}
+.amazing__day
+  .amazinag__day__center
+  .myAmazingday
+  .amazingday__slide
+  .slide__center
+  .center__first
+  .center__two
+  .two
+  .right
+  p {
+  font-family: persian;
+  font-size: 10px;
+  font-weight: normal;
+}
+.amazing__day
+  .amazinag__day__center
+  .myAmazingday
+  .amazingday__slide
+  .slide__center
+  .center__first
+  .center__two
+  .two
+  .left {
+  width: 41px;
+  height: 26px;
+}
+.amazing__day
+  .amazinag__day__center
+  .myAmazingday
+  .amazingday__slide
+  .slide__center
+  .center__first
+  .center__two
+  .two
+  .left
+  p {
+  font-size: 14px;
+}
+.amazing__day
+  .amazinag__day__center
+  .myAmazingday
+  .amazingday__slide
+  .slide__center
+  .center__first
+  .center__two
+  .three {
+  width: inherit;
+  height: 63px;
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 4px;
+}
+.amazing__day
+  .amazinag__day__center
+  .myAmazingday
+  .amazingday__slide
+  .slide__center
+  .center__first
+  .center__two
+  .three
+  .three__one {
+  width: 100%;
+  height: 33.61px;
+  display: flex;
+  flex-flow: row-reverse wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.amazing__day
+  .amazinag__day__center
+  .myAmazingday
+  .amazingday__slide
+  .slide__center
+  .center__first
+  .center__two
+  .three
+  .three__one
+  h5 {
+  width: 120px;
+  height: auto;
+  display: flex;
+  flex-flow: row-reverse wrap;
+  font-size: 18px;
+  opacity: 0.8;
+  column-gap: 3px;
+  color: #3f4064;
+  margin-top: -2px;
+}
+.amazing__day
+  .amazinag__day__center
+  .myAmazingday
+  .amazingday__slide
+  .slide__center
+  .center__first
+  .center__two
+  .three
+  .three__one
+  span {
+  height: 20px;
+  width: 33px;
+  font-size: 14px;
+  border-radius: 12px;
+  color: #ffffff;
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c60c31;
+}
+.amazing__day
+  .amazinag__day__center
+  .myAmazingday
+  .amazingday__slide
+  .slide__center
+  .center__first
+  .center__two
+  .three
+  .three__two {
+  display: block;
+  width: 100%;
+  height: auto;
+  font-family: var(--font-family-number);
+  text-align: left;
+  padding-left: 25px;
+  font-size: 14px;
+  opacity: 0.9;
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+.amazing__day
+  .amazinag__day__center
+  .myAmazingday
+  .amazingday__slide
+  .slide__center
+  .center__first
+  .center__two
+  .forth {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 15px;
+  font-family: var(--font-family-number);
+  margin-left: -15px;
+  color: #e6123d;
+}
+.amazing__day
+  .amazinag__day__center
+  .myAmazingday
+  .amazingday__slide
+  .slide__center
+  .center__first
+  .center__two
+  .forth
+  .forth__one {
+  width: 90px;
+  height: 26px;
+}

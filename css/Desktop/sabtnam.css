@@ -1,0 +1,71 @@
+.sabtnam {
+  width: 400px;
+  height: 440px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  margin: 0 auto;
+  margin-top: 100px;
+  border-radius: 12px;
+  border: 2px solid #e0e0e2;
+}
+.sabtnam .logo__sabt {
+  width: 334px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 34px;
+  margin-bottom: 24px;
+}
+.sabtnam .bottom__sabt {
+  width: 334px;
+  height: 334px;
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 5px;
+}
+.sabtnam .bottom__sabt h1 {
+  font-family: persian;
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+.sabtnam .bottom__sabt p {
+  font-family: persian;
+  font-size: 12px;
+  font-weight: normal;
+  opacity: 0.7;
+}
+.sabtnam .bottom__sabt .login__sabt input[type="text"] {
+  width: 334px;
+  height: 48px;
+  border-radius: 10px;
+  outline: none;
+  border: 2px solid #19bfd3;
+  margin-top: 23px;
+  margin-bottom: 40px;
+}
+.sabtnam .bottom__sabt .submit__vorod {
+  width: 334px;
+  height: 48px;
+  border-radius: 10px;
+  background-color: #ef4056;
+  border: 0;
+}
+.sabtnam .bottom__sabt .submit__vorod .login__register {
+  font-family: persian;
+  color: #fff;
+  font-size: 14px;
+}
+.sabtnam .bottom__sabt p {
+  font-family: persian;
+  font-size: 10px;
+  margin-top: 10px;
+  margin-right: 2px;
+}
+.sabtnam .bottom__sabt p a {
+  text-decoration: none;
+  font-family: persian;
+}
